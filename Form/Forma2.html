@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+ 
+ <title>Forma MHire</title>
+ <link rel="stylesheet" href="Forma2.css" type="text/css">
+ <script src="forma2.js"></script>
+ </head>
+
+   <body>
+   <div id="header" align="center">Formular de înregistrare</div>
+
+   <div class="form-style">
+
+     <h2>Toate c&#226mpurile sunt obligatorii</h2>
+   <form name="form1" method="post" action="#" onsubmit="return fncValidate();" autocomplete="off">
+     <table align="center" width="400" height="500" border="0">
+         <tr>
+          <td width="125">Nume</td>
+          <td width="180"><div class="input-group">
+            <input type="text" name="fname" size="20"></div>
+          </td>
+         <tr>
+         <tr>
+           <td width="125">Prenume</td>
+           <td width="180"><div class="input-group">
+             <input type="text" name="lname" size="20"></div>
+           </td>
+         </tr>
+         <tr><td> Genul:</td><td><span id="gen"><input type="radio" name="gender" value="Masculin" id="male">Masculin
+         <input type="radio" name="gender" value="Feminin" id="female">Feminin</span></td></tr>
+         <tr><td>Adresa:</td><td><textarea name="adress" class="textarea-field"></textarea></td></tr>
+         <tr><td>Tara:</td><td><div class="input-group">
+         <select id="country">
+         <option value="">Alege o tara</option>
+         <option value="aus">Australia</option>
+         <option value="gb">Marea Britanie</option>
+         <option value="ind">India</option>
+         </select>
+         </div></td></tr>
+         <tr>
+               <td> Num&#259r de telefon:</td>
+               <td><div class="input-group"><input type="text" name="phone"></div>
+               </td>
+         </tr>
+         <tr>
+               <td> &nbsp;Email:</td>
+               <td><div class="input-group"><input type="text" name="email"></div>
+               </td>
+         </tr>
+         <tr>
+               <td> &nbsp;Parola</td>
+               <td><div class="input-group"><input type="password" name="Password"></div>
+               </td>
+         </tr>
+         <tr>
+               <td>Confirmă parola</td>
+               <td><div class="input-group"><input type="password" name="ConPassword"></div>
+               </td>
+         </tr>
+    <tr><td></td><td><input type="submit" name="Submit" value="Save" class="btn">&nbsp&nbsp
+    <input type="reset" name="reset" value="Clear" class="btn"></td></tr>
+
+
+     </table>
+   </form>
+   </div>
+             
+     
+
+   </body>
+  </html>
