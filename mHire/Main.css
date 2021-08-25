@@ -1,0 +1,129 @@
+
+  .sidenav {
+    height: 100%;
+    width: 70px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    padding-top: 20px;
+    background: #990AE3;
+
+  }
+  
+  .sidenav a {
+    display: block;
+}
+  
+
+
+
+.btn1 {
+opacity: 1;
+width: 48px;
+height: 48px;
+padding-left: 9px;
+padding-bottom: 25px;
+transition: transform .2s;
+
+
+}
+
+.btn2 {
+    width: 48px;
+    height: 48px;
+    padding-left: 9px;
+    bottom: 30px;
+    position: absolute;
+    transition: transform .2s;
+}
+
+
+  .btn1:hover {
+    transform: scale(1.2); 
+  }
+
+  .btn2:hover{
+    transform: scale(1.2);
+  }
+
+  .grid-container {
+    padding-left: 20%;
+    padding-top: 10%;
+    padding-bottom: 20%;
+    display: grid;
+    grid-gap: 150px;
+    grid-template-columns: 20px 20px 20px ;
+    grid-gap: 20%;
+    grid-column-gap: 350px;
+  
+    
+    
+  }
+  
+  .grid-container > div {
+   border-style: solid;
+    border-radius: 45px;
+    border-color: #990AE3;
+    width: 230px;
+    height: 160px;
+    margin-bottom: 40%; 
+    padding-top: 20px;
+  }
+
+  .actions{
+    font-size: 20px;
+    font-family: fantasy;
+    color: #990AE3;
+    text-align: center;
+  }
+
+.edit {
+
+  position: absolute;
+  padding-left: 40px;
+  padding-top: 40px;
+
+}
+
+
+.button {
+  border-radius: 45px;
+  background-color: #990AE3;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 14px;
+  padding: auto;
+  width: 150px;
+  height: 30px;
+  transition: all 0.5s;
+  cursor: pointer;
+  
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}

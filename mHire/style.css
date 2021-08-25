@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+  justify-content: center;
+}
+
+.container h2{
+  color: #990AE3;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+input[type = email]{
+
+  width: 90%;
+  padding: 12px 20px;
+  margin: 60px 0px 0px 0px;
+  display: inline-block;
+  border: 1px solid #990AE3;
+  box-sizing: border-box;
+  border-radius: 45px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #990AE3;
+  color: #fff;
+}
+
+button {
+  background-color: #990AE3;
+  color: white;
+  padding: 14px 20px;
+  margin: 30px 20px 30px;
+  border: none;
+  cursor: pointer;
+  width: 25%;
+  border-radius: 45px;
+  font-family: 'Open Sans', sans-serif; 
+  font-size: 18px;
+}
+
+.jc-center{
+  justify-content: center;
+}
+
+button.margin-right{
+  margin-right: 20px;
+  
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.container {
+
+  position: absolute;
+  left: 5%;
+  right: 5%;
+  top: 30%;
+  max-width: 450px;
+  text-align: center;
+  padding: 1em;
+  margin: auto;
+  border-style: solid;
+  border-width: 2px; 
+  border-radius: 45px;
+  border-color: #990AE3;
+}
+
+::placeholder { 
+  color: #fff;
+  opacity: 1; 
+  font-size: 18px;
+}

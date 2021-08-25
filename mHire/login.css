@@ -1,0 +1,120 @@
+    body {
+        color: #666;
+    }
+    
+    h1#title {
+        display: block;
+        margin: auto;
+        text-align: center;
+        width: 100%;
+        color:#990AE3;
+        font-size: 100px;
+    }
+    
+    h2 {
+        /* mHire */
+        font-family: 'Open Sans', sans-serif; 
+        font-style: normal;
+        font-weight: bold;
+        
+        color: #990AE3;
+        left: 5%;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #666;
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        color: #990AE3;
+    }
+    
+    p.small {
+        /*Forgot your password*/
+        font-size: 0.8em;
+        margin: 20px 0 20px;
+        
+    }
+    
+    .container {
+        margin-top: 40px;
+    }
+    
+
+    .login-box {
+        max-width: 450px;
+        left: 0%;
+        right: 10%;
+        top: 30%;
+        margin: 0 auto;
+        position: relative;
+        top: 80px;
+        text-align: center;
+        background: linear-gradient(108.44deg, rgba(255, 255, 255, 0.4) 3.51%, rgba(255, 255, 255, 0.1) 98.46%);
+        border: 3px solid #990AE3;
+        box-sizing: border-box;
+        border-radius: 45px;
+        font-size: 18px;
+    }
+    
+    .login-box input {
+        margin-bottom: 20px;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 2px;
+        font-size: .9em;
+        color: #888;
+    }
+    
+    .login-box input:focus {
+        outline: none;
+        border-color: #665851;
+        transition: 0.5s;
+        color: #665851;
+    }
+    
+    .login-box button {
+        margin-top: 0px;
+        border: 0;
+        color: white;
+        padding: 12px;
+        cursor: pointer;
+        outline: none;
+        background: #990AE3;
+        border-radius: 45px;
+        font-family: 'Open Sans', sans-serif; 
+        font-size: .9em;
+        color: #FFFFFF;
+        width: 100px;
+    }
+    
+    .login-box button:hover {
+        opacity: 0.7;
+        transition: 0.5s;
+    }
+    
+    .selected {
+        color: #665851;
+        transition: 0.5s;
+    }
+    
+    #email {
+        background: #990AE3;
+        border-radius: 45px;
+        color: white;
+        width: 350px;
+    }
+    
+    #password {
+        /* Rectangle 69 */
+        background: #990AE3;
+        border-radius: 45px;
+        width: 350px;
+    }
+    
+     ::placeholder {
+        color: white;
+        opacity: 1;
+        font-family: 'Open Sans', sans-serif; 
+  
+    }
